@@ -77,6 +77,7 @@ public class JobData {
 
             String aValue = row.get(column);
             String loweraValue = aValue.toLowerCase();
+
             if (loweraValue.contains(value.toLowerCase())) {
                 jobs.add(row);
             }
